@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'CursedTimer';
+  src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+}
+
+
+#home-text{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    margin-top: 68px;
+    margin-left: 85px;
+    margin-bottom: 0;
+    
+    text-align: center;
+
+}
+
+#guest-text{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    margin-top: 68px;
+    margin-right: 85px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.box-counter-home{
+    color: #F94F6D;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    margin-left: 82px;
+    margin-top: 0;
+    border-radius: 8px;
+}
+
+.box-counter-guest{
+    color: #F94F6D;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    margin-right: 83px;
+    margin-top: 0;
+    border-radius: 8px;
+}
+
+h1{
+    padding-top:18px;
+    font-family: 'CursedTimer', sans-serif;
+    font-size: 78px;
+}
+
+#home-btn{
+    padding-top: 26px;
+    margin-left: 82px;
+    
+    
+}
+#guest-btn{
+    padding-top: 26px;
+    margin-left: 5px;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    font-family: 'CursedTimer';
+    background-color: #1B244A;
+    border: 2px solid ;
+    border-radius: 5px;
+    
+    
+}
